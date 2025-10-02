@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'Gibson';
+  src: url('./assets/fonts/gibson-thin.otf') format('opentype');
+  font-weight: 100; /* Thin */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gibson';
+  src: url('./assets/fonts/gibson-light.otf') format('opentype');
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gibson';
+  src: url('./assets/fonts/gibson-regular.otf') format('opentype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gibson';
+  src: url('./assets/fonts/gibson-medium.otf') format('opentype');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gibson';
+  src: url('./assets/fonts/gibson-semibold.otf') format('opentype');
+  font-weight: 600; /* SemiBold */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gibson';
+  src: url('./assets/fonts/gibson-bold.otf') format('opentype');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gibson';
+  src: url('./assets/fonts/gibson-heavy.otf') format('opentype');
+  font-weight: 800; /* Heavy */
+  font-style: normal;
+}
+
+/* --- Italic Styles --- */
+@font-face {
+  font-family: 'Gibson';
+  src: url('./assets/fonts/gibson-thinitalic.otf') format('opentype');
+  font-weight: 100; /* Thin */
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Gibson';
+  src: url('./assets/fonts/gibson-lightitalic.otf') format('opentype');
+  font-weight: 300; /* Light */
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Gibson';
+  src: url('./assets/fonts/gibson-italic.otf') format('opentype');
+  font-weight: 400; /* Regular */
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Gibson';
+  src: url('./assets/fonts/gibson-mediumitalic.otf') format('opentype');
+  font-weight: 500; /* Medium */
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Gibson';
+  src: url('./assets/fonts/gibson-semibolditalic.otf') format('opentype');
+  font-weight: 600; /* SemiBold */
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Gibson';
+  src: url('./assets/fonts/gibson-bolditalic.otf') format('opentype');
+  font-weight: 700; /* Bold */
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Gibson';
+  src: url('./assets/fonts/gibson-heavyitalic.otf') format('opentype');
+  font-weight: 800; /* Heavy */
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Goudy';
+  src: url('./assets/fonts/GoudyRegular.otf') format('opentype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Goudy';
+  src: url('./assets/fonts/GoudyMedium.otf') format('opentype');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BDSans';
+  src: url('./assets/fonts/bdsans-thin.otf') format('opentype');
+  font-weight: 100; /* Thin */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BDSans';
+  src: url('./assets/fonts/bdsans-regular.otf') format('opentype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BDSans';
+  src: url('./assets/fonts/bdsans-bold.otf') format('opentype');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BDSans';
+  src: url('./assets/fonts/bdsans-black.otf') format('opentype');
+  font-weight: 900; /* Black */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BDScript';
+  src: url('./assets/fonts/bdscript-regular.otf') format('opentype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BDScript';
+  src: url('./assets/fonts/bdscript-bold.otf') format('opentype');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

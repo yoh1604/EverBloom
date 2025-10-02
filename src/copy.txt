@@ -1,0 +1,96 @@
+// src/App.jsx
+
+import Navbar from './components/Navbar';
+import ProductCard_copy from './components/ProductCard_copy';
+import { motion } from 'framer-motion'; // Impor motion di sini juga
+
+const products = [
+  {
+    id: 1,
+    imageUrl: "/1_money.jpeg", // Pastikan gambar ini ada di folder public
+    title: "Gibson SemiBold",
+    description: "Font modern dengan karakter kuat."
+  },
+  {
+    id: 2,
+    imageUrl: "/large_blue-pink.jpeg", // Pastikan gambar ini ada di folder public
+    title: "Goudy Medium",
+    description: "Tampilan klasik dan elegan untuk teks."
+  },
+  {
+    id: 3,
+    imageUrl: "/1_money.jpeg",
+    title: "BD Script Bold",
+    description: "Gaya tulisan tangan yang artistik."
+  },
+  {
+    id: 4,
+    imageUrl: "/large_blue-pink.jpeg",
+    title: "Poppins Regular",
+    description: "Sangat mudah dibaca dan serbaguna."
+  },
+  {
+    id: 5,
+    imageUrl: "/1_money.jpeg",
+    title: "Gibson Light Italic",
+    description: "Versi miring yang ringan dan dinamis."
+  },
+  {
+    id: 6,
+    imageUrl: "/large_blue-pink.jpeg",
+    title: "BD Sans Black",
+    description: "Super tebal untuk headline yang menonjol."
+  },
+  {
+    id: 7,
+    imageUrl: "/1_money.jpeg",
+    title: "Goudy Regular",
+    description: "Pilihan aman untuk body text."
+  },
+  {
+    id: 8,
+    imageUrl: "/large_blue-pink.jpeg",
+    title: "BD Script Regular",
+    description: "Sentuhan personal untuk desain Anda."
+  }
+];
+
+// Definisikan varian untuk kontainer dan item
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1, // Jarak waktu antar anak-anaknya
+    },
+  },
+};
+
+function App() {
+  return (
+    <div className="bg-slate-100 min-h-screen">
+      <Navbar />
+      <main className="p-8">
+        test
+
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+          className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+        > halo
+          {products.map((product) => (
+            <ProductCard_copy
+              key={product.id}
+              imageUrl={product.imageUrl}
+              title={product.title}
+              description={product.description}
+            />
+          ))}
+        </motion.div>
+      </main>
+    </div>
+  );
+}
+
+export default App;
