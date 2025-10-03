@@ -14,7 +14,7 @@ function ContactPage() {
       {/* --- Judul Halaman --- */}
       <div className="text-center mb-12">
         <h1 className="text-4xl lg:text-5xl font-bold font-serif">Hubungi Kami</h1>
-        <p className="mt-4 text-lg font-sans text-[#3C3E66]/80">Kami senang mendengar dari Anda. Kirimkan pesan atau kunjungi kami!</p>
+        <p className="mt-4 text-lg font-sans text-[#3C3E66]/80">Kami senang mendengar dari Anda. Kirimkan pesan atau kunjungi kami</p>
       </div>
 
       {/* --- Kontainer Utama (Layout 2 Kolom di Layar Besar) --- */}
@@ -57,6 +57,62 @@ function ContactPage() {
               <p className="[#3C3E66]/80">Surabaya, Jawa Timur</p>
             </div>
           </div>
+          <div className="flex items-start space-x-4">
+            <svg 
+              xmlns="http://www.w3.org/2000/svg" 
+              className="h-6 w-6" // Anda bisa sesuaikan ukuran di sini
+              fill="none" 
+              viewBox="0 0 24 24" 
+              stroke="currentColor"
+            >
+              <path 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                strokeWidth={2} 
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069z" 
+              />
+              <path 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                strokeWidth={2} 
+                d="M12 12m-3 0a3 3 0 106 0 3 3 0 10-6 0" 
+              />
+              <path 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                strokeWidth={2} 
+                d="M16.5 7.5l0 .01" 
+              />
+            </svg>
+            {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg> */}
+            <div>
+              <h3 className="font-semibold">Instagram</h3>
+              <a 
+                href="instagram.com/ever.bloom8" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className=" hover:text-[#767894] hover:underline"
+              >
+                <a className='font-serif '>@</a>
+                ever.bloom8
+              </a>
+            </div>
+          </div>
+          {/* <div className="flex items-start space-x-4">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+            <div>
+              <h3 className="font-semibold">Tiktok</h3>
+              <a 
+                href="instagram.com/ever.bloom8" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className=" hover:text-[#767894] hover:underline"
+              >
+                <a className='font-serif '>@</a>
+                ever.bloom8
+              </a>
+            </div>
+          </div> */}
         </div>
 
        

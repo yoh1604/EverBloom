@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'; // 👈 1. Impor 'Link' dari react-rout
 function Navbar() {
   return (
     <nav className="
-      w-full bg-white/10 shadow-md p-2 flex justify-between items-center
+      fixed top-0 w-full bg-white/10 shadow-md p-2 flex justify-between items-center
       lg:max-w-7xl lg:mx-auto lg:bg-white/20 lg:backdrop-blur-lg lg:rounded-xl lg:shadow-lg lg:border lg:border-white/30
     ">
       
